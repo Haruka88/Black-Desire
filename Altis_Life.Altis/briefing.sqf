@@ -172,7 +172,7 @@ player createDiaryRecord["policerules",
 	];
 player createDiaryRecord ["policerules",
 		[
-			"Chekpoints",
+			"Checkpoints",
 				"
 				Die Cops können zusätzliche Checkpoints einrichten und als strategische Anlaufpunkte nutzen, um effizient in Gefechten vorzugehen und die Sicherheit auf den Straßen zu fördern.<br/><br/>
 			
@@ -247,7 +247,7 @@ player createDiaryRecord ["policerules",
 	];
 player createDiaryRecord ["policerules",
 		[
-			"Razia durführen",
+			"Razia durchführen",
 				"
 				- Alle Zivilisten im Gebiet dürfen festgenommen und durchsucht werden. Falls nichts Illegales gefunden wird, lasst sie laufen.<br/>
 				- Falls etwas Illegales gefunden wird, wird das normale Prozedere durchgeführt.<br/>

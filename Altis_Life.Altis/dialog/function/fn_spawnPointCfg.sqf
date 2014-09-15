@@ -25,6 +25,11 @@ switch (_side) do
 			["cop_tr","Trainingsgelaende","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_9","Grenzkontrolle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
+		
+		if(__GETC__(life_coplevel) > 5) then {
+		_markers = _markers + [
+			["cop_spawn_10","SEK Gelände","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
+		];
 	};
 	
 	case civilian:
@@ -37,7 +42,7 @@ switch (_side) do
 			["civ_spawn_5","Flughafen","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
 		];
 		
-	if(license_civ_rebel && playerSide == civilian) then {
+		if(license_civ_rebel && playerSide == civilian) then {
 		_markers = _markers + [
 			["reb_spawn_1","RebellenHQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
