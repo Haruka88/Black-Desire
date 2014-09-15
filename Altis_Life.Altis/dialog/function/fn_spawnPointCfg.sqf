@@ -23,11 +23,7 @@ switch (_side) do
 			["cop_spawn_4","Air HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
 			["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_tr","Trainingsgelaende","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
-			["cop_spawn_9","Grenzkontrolle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
-		];
-		
-		if(__GETC__(life_coplevel) > 5) then {
-		_markers = _markers + [
+			["cop_spawn_9","Grenzkontrolle","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_10","SEK Gelände","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};

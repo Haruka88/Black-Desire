@@ -17,13 +17,16 @@ _nearUnits = (visiblePosition player) nearEntities ["Man",5];
 				_height = 0.85;
 				switch (_x getVariable["coplevel", 0]) do
 				{
-					case (1) : {_name = format["Rekrut | %1", name _x];_icon = "";};
-					case (2) : {_name = format["Streifenpolizist | %1", name _x];_icon = "";};
-					case (3) : {_name = format["Kommissar | %1", name _x];_icon = "";};
-					case (4) : {_name = format["Bundeskriminalamt | %1", name _x];_icon = "";};
-					case (5) : {_name = format["Hauptkommissar | %1", name _x];_icon = "";};
-					case (6) : {_name = format["Vizechef | %1", name _x];_icon = "";};
-					case (7) : {_name = format["Chef | %1", name _x];_icon = "";};
+					case (1) : {_name = format["Polizei Anwärter | %1", name _x];_icon = "";};
+					case (2) : {_name = format["Polizeikommissar | %1", name _x];_icon = "";};
+					case (3) : {_name = format["Polizeioberkommissar | %1", name _x];_icon = "";};
+					case (4) : {_name = format["Polizeihauptkommissar | %1", name _x];_icon = "";};
+					case (5) : {_name = format["SEK Anwärter | %1", name _x];_icon = "";};
+					case (6) : {_name = format["SEK Sturmtrupp | %1", name _x];_icon = "";};
+					case (7) : {_name = format["SEK Scharfschütze | %1", name _x];_icon = "";};
+					case (8) : {_name = format["SEK Einsatzteam | %1", name _x];_icon = "";};
+					case (9) : {_name = format["Einsatzleitung | %1", name _x];_icon = "";};
+					case (10) : {_name = format["Polizei Chef | %1", name _x];_icon = "";};
 					default {_name = name _x; _icon = ""; _width = 0; _height = 0;}
 				};
                 if (_x getVariable["coplevel", 0] > 0) then

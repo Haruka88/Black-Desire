@@ -322,7 +322,6 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"Du bist kein Polizist!"};
-			case (__GETC__(life_coplevel) > 1): {"Du bist kein Polizist!"};
 			default
 			{
 				["Visiere und Schalldämpfer",
@@ -359,7 +358,6 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"Du bist kein Polizist!"};
-			case (__GETC__(life_coplevel) > 1): {"Du bist kein Polizist!"};
 			default
 			{
 				["Zubehör",
