@@ -1,18 +1,11 @@
 #include <macro.h>
 /*
 	File: fn_weaponShopCfg.sqf
-	Author: Bryan "Tonic" Boardwine
+	Author: Bryan "Tonic" Boardwine and BazzInc (Black Desire)
 	
 	Description:
 	Master configuration file for the weapon shops.
-	
-	Return:
-	String: Close the menu
-	Array: 
-	[Shop Name,
-	[ //Array of items to add to the store
-		[classname,Custom Name (set nil for default),price]
-	]]
+
 */
 private["_shop"];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
@@ -371,7 +364,7 @@ switch(_shop) do
 			{
 				["Zubehör",
 					[
-					["NVGoggles",nil,1000]
+						["NVGoggles",nil,1000],
 						["acc_flashlight",nil,500],
 						["Binocular",nil,100],
 						["ItemGPS",nil,100],
