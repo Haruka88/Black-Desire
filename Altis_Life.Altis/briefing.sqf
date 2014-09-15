@@ -41,7 +41,7 @@ player createDiaryRecord ["altisliferp",
 			"Homepage & Teamspeak",
 				"
 				Homepage: in Arbeit -> Community (Tab) -> Altis Life Forum<br/>
-				Teamspeak3: ts3.<br/><br/>
+				Teamspeak3: 176.57.142.158:9987<br/><br/>
 				
 				Regeln:<br/>
 				1. Deutsch ist die Teamspeak Sprache.<br/>
