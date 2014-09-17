@@ -221,7 +221,7 @@ switch (_shop) do
 	
 		case "cop_sek_air":
 	{
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 6) then
 		{
 			_return set[count _return,
 			["I_UAV_02_F",15000]];
